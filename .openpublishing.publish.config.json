@@ -3,26 +3,96 @@
     {
       "docset_name": "node-sdk-archive",
       "build_source_folder": ".",
-      "build_output_subfolder": "node-sdk-archive",
+      "build_output_subfolder": "node-api",
       "locale": "en-us",
-      "monikers": [],
+      "moniker_ranges": [
+        "azure-node-archive-legacy",
+        "az-js-storage-archive-v10",
+        "az-js-keyvault-archive-v3"
+      ],
       "open_to_public_contributors": false,
       "type_mapping": {
-        "Conceptual": "Content"
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content",
+        "TSType": "Content",
+        "TSPackage": "Content",
+        "TSEnum": "Content",
+        "TSTypeAlias": "Content",
+        "LandingData": "Content",
+        "APIConnector": "Content",
+        "ReferenceContainer": "Content"
       },
-      "build_entry_point": "docs"
+      "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "version": 0,
+      "customized_template_paths": [
+        "_dependentPackages/uref.plugins/content"
+      ],
+      "DiffFolder": [
+        "docs-ref-autogen/overview",
+        "preview-packages/docs-ref-autogen/overview"
+      ]
     }
   ],
   "notification_subscribers": [],
   "sync_notification_subscribers": [],
   "branches_to_filter": [],
+  "git_repository_branch_open_to_public_contributors": "main",
+  "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
+  "enable_incremental_build": false,
+  "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "main",
       "branch_mapping": {}
+    },
+    {
+      "path_to_root": "azure-sdk-for-js",
+      "url": "https://github.com/Azure/azure-sdk-for-js",
+      "branch": "main",
+      "branch_mapping": {}
     }
-  ]
+  ],
+  "branch_target_mapping": {},
+  "need_generate_pdf_url_template": false,
+  "targets": {},
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false,
+  "dependent_packages": [
+    {
+      "id": "opbuild.templates.uref",
+      "nuget_feed": "https://www.myget.org/F/op/api/v2",
+      "path_to_root": "_dependentPackages/uref.plugins",
+      "target_framework": "net45",
+      "version": "latest"
+    },
+    {
+      "id": "Microsoft.OpenPublishing.CommonPlugins",
+      "nuget_feed": "https://www.myget.org/F/op/api/v2",
+      "path_to_root": "_dependentPackages/CommonPlugins",
+      "target_framework": "net45",
+      "version": "latest"
+    }
+  ],
+  "JoinTOCPlugin": [
+    {
+      "TopLevelTOC": "previous-packages/docs-ref-mapping/reference.yml",
+      "ReferenceTOC": "previous-packages/docs-ref-autogen/toc.yml",
+      "ConceptualTOCUrl": "/azure/developer/javascript/toc.json?view=main",
+      "OutputFolder": "previous-packages/docs-ref-autogen/overview",
+      "HideEmptyNode": false,
+      "ContainerPageMetadata": {
+        "langs": [
+          "js"
+        ]
+      }
+    }
+  ],
+  "docs_build_engine": {
+    "name": "docfx_v3"
+  }
 }
