@@ -9,7 +9,7 @@
         "src": "previous-packages/storage/docs-ref-autogen",
         "dest": "api/azure_node_ref_toc",
         "group": "storage-v10",
-        "version": "az-js-storage-v10"
+        "version": "az-js-storage-archive-v10"
       },
       {
         "files": [
@@ -18,7 +18,7 @@
         "src": "previous-packages/key-vault/docs-ref-autogen",
         "dest": "api/azure_node_ref_toc",
         "group": "keyvault-v3",
-        "version": "az-js-keyvault-v3"
+        "version": "az-js-keyvault-archive-v3"
       },
       {
         "files": [
@@ -31,7 +31,7 @@
         "src": "docs-ref-services/legacy",
         "dest": "api/preview-docs/overview/azure",
         "group": "keyvault-v3",
-        "version": "az-js-keyvault-v3"
+        "version": "az-js-keyvault-archive-v3"
       },
       {
         "files": [
@@ -47,7 +47,7 @@
         "src": "docs-ref-services/legacy",
         "dest": "api/preview-docs/overview/azure",
         "group": "storage-v10",
-        "version": "az-js-storage-v10"
+        "version": "az-js-storage-archive-v10"
       },
       {
         "files": [
@@ -61,7 +61,7 @@
         "src": "previous-packages/storage/docs-ref-autogen",
         "dest": "api/preview-docs",
         "group": "storage-v10",
-        "version": "az-js-storage-v10"
+        "version": "az-js-storage-archive-v10"
       },
       {
         "files": [
@@ -71,15 +71,7 @@
         "src": "previous-packages/key-vault/docs-ref-autogen",
         "dest": "api/preview-docs",
         "group": "keyvault-v3",
-        "version": "az-js-keyvault-v3"
-      },
-      {
-        "files": [
-          "**/*.yml"
-        ],
-        "src": "docs-ref-autogen/overview",
-        "dest": "api/overview/azure",
-        "group": "stable"
+        "version": "az-js-keyvault-archive-v3"
       },
       {
         "files": [
@@ -109,7 +101,7 @@
         "src": "docs-ref-services/legacy",
         "dest": "api/overview/azure",
         "group": "legacy",
-        "version": "azure-node-legacy"
+        "version": "azure-node-archive-legacy"
       },
       {
         "files": [
