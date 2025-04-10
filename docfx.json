@@ -3,20 +3,128 @@
     "content": [
       {
         "files": [
+          "**/toc.md",
+          "**/toc.yml"
+        ],
+        "src": "previous-packages/storage/docs-ref-autogen",
+        "dest": "api/azure_node_ref_toc",
+        "group": "storage-v10",
+        "version": "az-js-storage-archive-v10"
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "previous-packages/key-vault/docs-ref-autogen",
+        "dest": "api/azure_node_ref_toc",
+        "group": "keyvault-v3",
+        "version": "az-js-keyvault-archive-v3"
+      },
+      {
+        "files": [
+          "key-vault/key-vault-index.md",
+          "key-vault/keyvault-keys-readme.md",
+          "key-vault/keyvault-secrets-readme.md",
+          "key-vault/keyvault-certificates-readme.md",
+          "key-vault/index.md"
+        ],
+        "src": "docs-ref-services/legacy",
+        "dest": "api/preview-docs/overview/azure",
+        "group": "keyvault-v3",
+        "version": "az-js-keyvault-archive-v3"
+      },
+      {
+        "files": [
+          "storage/storage-blob-readme.md",
+          "storage/storage-file-datalake-readme.md",
+          "storage/storage-file-share-readme.md",
+          "storage/storage-fileshare-readme.md",
+          "storage/storage-index.md",
+          "storage/storage-overview.md",
+          "storage/storage-queue-readme.md",
+          "storage/index.md"
+        ],
+        "src": "docs-ref-services/legacy",
+        "dest": "api/preview-docs/overview/azure",
+        "group": "storage-v10",
+        "version": "az-js-storage-archive-v10"
+      },
+      {
+        "files": [
+          "@azure/storage-blob/**/*.yml",
+          "@azure/storage-queue/**/*.yml",
+          "@azure/storage-file/**/*.yml",
+          "azure-arm-storage/**/*.yml",
+          "azure-arm-storageimportexport/**/*.yml",
+          "azure-arm-storagesync/**/*.yml"
+        ],
+        "src": "previous-packages/storage/docs-ref-autogen",
+        "dest": "api/preview-docs",
+        "group": "storage-v10",
+        "version": "az-js-storage-archive-v10"
+      },
+      {
+        "files": [
+          "azure-arm-keyvault/**/*.yml",
+          "azure-keyvault/**/*.yml"
+        ],
+        "src": "previous-packages/key-vault/docs-ref-autogen",
+        "dest": "api/preview-docs",
+        "group": "keyvault-v3",
+        "version": "az-js-keyvault-archive-v3"
+      },
+      {
+        "files": [
+          "**/*.yml"
+        ],
+        "src": "previous-packages/docs-ref-autogen/overview",
+        "dest": "api/overview/azure",
+        "group": "legacy"
+      },
+      {
+        "files": [
+          "**/toc.md",
+          "**/toc.yml"
+        ],
+        "src": "previous-packages/docs-ref-autogen",
+        "dest": "api/azure_node_ref_toc",
+        "group": "legacy"
+      },
+      {
+        "files": [
           "**/*.md",
           "**/*.yml"
         ],
         "exclude": [
+          "**/*-index.md"
+        ],
+        "src": "docs-ref-services/legacy",
+        "dest": "api/overview/azure",
+        "group": "legacy",
+        "version": "azure-node-archive-legacy"
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "previous-packages/docs-ref-autogen",
+        "dest": "api",
+        "group": "legacy",
+        "exclude": [
+          "**/toc.yml"
+        ]
+      },
+      {
+        "files": [
+          "**/*.yml"
+        ],
+        "src": "bread",
+        "dest": "azure/azure_nodejs_bread",
+        "group": "preview-legacy-stable",
+        "exclude": [
           "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "**/docfx.json",
-          "_repo.en-us/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices.md",
-          "SECURITY.md"
+          "**/includes/**"
         ]
       }
     ],
@@ -24,25 +132,117 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.svg"
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "**/docfx.json",
-          "_repo.en-us/**"
-        ]
+          "**/includes/**"
+        ],
+        "src": "docs-ref-conceptual",
+        "dest": "azure",
+        "group": "preview-legacy-stable"
       }
     ],
-    "overwrite": [],
+    "groups": {
+      "legacy": {
+        "dest": "legacy",
+        "moniker_range": "azure-node-archive-legacy"
+      },
+      "storage-v10": {
+        "dest": "storage-v10",
+        "moniker_range": "az-js-storage-archive-v10"
+      },
+      "keyvault-v3": {
+        "dest": "keyvault-v3",
+        "moniker_range": "az-js-keyvault-archive-v3"
+      },
+      "preview-legacy-stable": {
+        "dest": "preview-legacy-stable",
+        "moniker_range": "azure-node-archive-legacy"
+      }
+    },
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "~/breadcrumb/node-sdk-archive/toc.yml",
-      "feedback_system": "Standard",
-      "permissioned-type": "public"
+      "ROBOTS": "NOINDEX,NOFOLLOW",
+      "is_archived": true,
+      "is_retired": false,
+      "uhfHeaderId": "Azure",
+      "breadcrumb_path": "~/bread/toc.yml",
+      "brand": "azure",
+      "ms.topic": "reference",
+      "feedback_system": "None",
+      "apiPlatform": "javascript",
+      "searchScope": [
+        "Azure",
+        "Azure SDK for JavaScript"
+      ],
+      "contributors_to_exclude": [
+        "danieljurek",
+        "JimSuplizio"
+      ]
     },
-    "fileMetadata": {},
-    "template": []
+    "fileMetadata": {
+      "author": {
+        "docs-ref-services/**": "azure-sdk"
+      },
+      "ms.author": {
+        "docs-ref-services/**": "azsdkdocs"
+      },
+      "ms.topic": {
+        "previous-packages/docs-ref-autogen/**": "generated-reference",
+        "previous-packages/**/docs-ref-autogen/**": "generated-reference",
+        "docs-ref-conceptual/**": "article"
+      },
+      "ms.service": {
+        "previous-packages/docs-ref-autogen/@azure/storage-blob/**": "azure-storage",
+        "previous-packages/docs-ref-autogen/@azure/storage-queue/**": "azure-storage",
+        "previous-packages/docs-ref-autogen/azure-arm-keyvault/**": "azure-key-vault",
+        "previous-packages/docs-ref-autogen/azure-arm-storage/**": "azure-storage",
+        "previous-packages/docs-ref-autogen/azure-arm-storageimportexport/**": "azure-storage",
+        "previous-packages/docs-ref-autogen/azure-asm-storage/**": "azure-storage",
+        "previous-packages/docs-ref-autogen/azure-keyvault/**": "azure-key-vault",
+        "previous-packages/key-vault/docs-ref-autogen/**": "azure-key-vault",
+        "previous-packages/storage/docs-ref-autogen/**": "azure-storage"
+      },
+      "products": {
+        "previous-packages/docs-ref-autogen/azure-asm-storage/**": [
+          "https://authoring-docs-microsoft.poolparty.biz/devrel/de8ce683-cbe1-461b-bae7-77db0888ec6d"
+        ],
+        "previous-packages/docs-ref-autogen/azure-arm-storage/**": [
+          "https://authoring-docs-microsoft.poolparty.biz/devrel/de8ce683-cbe1-461b-bae7-77db0888ec6d"
+        ],
+        "previous-packages/docs-ref-autogen/azure-keyvault/**": [
+          "https://authoring-docs-microsoft.poolparty.biz/devrel/f488294d-f483-456e-94e3-755f933b811b"
+        ],
+        "previous-packages/docs-ref-autogen/@azure/storage-blob/**": [
+          "https://authoring-docs-microsoft.poolparty.biz/devrel/de8ce683-cbe1-461b-bae7-77db0888ec6d"
+        ],
+        "previous-packages/docs-ref-autogen/azure-arm-storageimportexport/**": [
+          "https://authoring-docs-microsoft.poolparty.biz/devrel/de8ce683-cbe1-461b-bae7-77db0888ec6d"
+        ],
+        "previous-packages/docs-ref-autogen/@azure/storage-queue/**": [
+          "https://authoring-docs-microsoft.poolparty.biz/devrel/de8ce683-cbe1-461b-bae7-77db0888ec6d"
+        ],
+        "previous-packages/docs-ref-autogen/azure-arm-keyvault/**": [
+          "https://authoring-docs-microsoft.poolparty.biz/devrel/f488294d-f483-456e-94e3-755f933b811b"
+        ]
+      },
+      "searchScope": {
+        "docs-ref-services/**/iot*.md": [
+          "IoT",
+          "Azure IoT Central",
+          "IoT Plug and Play",
+          "Azure IoT Edge",
+          "Azure Digital Twins",
+          "Azure IoT DPS",
+          "Azure IoT Hub",
+          "Azure NodeJS"
+        ]
+      }
+    },
+    "template": [],
+    "dest": "azure-node-sdk",
+    "markdownEngineName": "markdig"
   }
 }
