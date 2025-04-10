@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: ShareGetStatisticsResponse
+uid: '@azure/storage-file.ShareGetStatisticsResponse'
+package: '@azure/storage-file'
+summary: ''
+fullName: ShareGetStatisticsResponse
+remarks: ''
+isDeprecated: false
+syntax: |
+  type ShareGetStatisticsResponse = Models.ShareGetStatisticsResponse & {
+    shareUsage: number
+  }
