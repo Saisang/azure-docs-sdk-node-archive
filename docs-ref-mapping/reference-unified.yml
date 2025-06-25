@@ -58,6 +58,10 @@
       href: ~/docs-ref-services/{moniker}/ai-inference-rest-readme.md
       children:
       - '@azure-rest/ai-inference'
+    - name: AI Agents
+      href: ~/docs-ref-services/{moniker}/ai-agents-readme.md
+      children:
+      - '@azure/ai-agents'
     - name: AI Projects
       href: ~/docs-ref-services/{moniker}/ai-projects-readme.md
       children:
@@ -130,7 +134,7 @@
     items:
     - name: Management
       items:
-      - name: Resource Management - App Platform
+      - name: Resource Management - App Platform (deprecated)
         href: ~/docs-ref-services/{moniker}/arm-appplatform-readme.md
         children:
         - '@azure/arm-appplatform'
@@ -334,6 +338,16 @@
         href: ~/docs-ref-services/{moniker}/arm-botservice-readme.md
         children:
         - '@azure/arm-botservice'
+  - name: Carbonoptimization
+    href: ~/docs-ref-services/{moniker}/carbonoptimization.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Carbonoptimization
+        href: ~/docs-ref-services/{moniker}/arm-carbonoptimization-readme.md
+        children:
+        - '@azure/arm-carbonoptimization'
   - name: Change Analysis
     href: ~/docs-ref-services/{moniker}/change-analysis.md
     landingPageType: Service
@@ -428,6 +442,10 @@
       href: ~/docs-ref-services/{moniker}/cognitiveservices-formrecognizer-readme.md
       children:
       - '@azure/cognitiveservices-formrecognizer'
+    - name: Health Insights Radiology Insights
+      href: ~/docs-ref-services/{moniker}/health-insights-radiologyinsights-rest-readme.md
+      children:
+      - '@azure-rest/health-insights-radiologyinsights'
     - name: Image Analysis
       href: ~/docs-ref-services/{moniker}/ai-vision-image-analysis-rest-readme.md
       children:
@@ -1588,6 +1606,36 @@
         href: ~/docs-ref-services/{moniker}/arm-kubernetesconfiguration-readme.md
         children:
         - '@azure/arm-kubernetesconfiguration'
+  - name: Kubernetesconfiguration-Extensions
+    href: ~/docs-ref-services/{moniker}/kubernetesconfiguration-extensions.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Kubernetesconfiguration-Extensions
+        href: ~/docs-ref-services/{moniker}/arm-kubernetesconfiguration-extensions-readme.md
+        children:
+        - '@azure/arm-kubernetesconfiguration-extensions'
+  - name: Kubernetesconfiguration-Extensiontypes
+    href: ~/docs-ref-services/{moniker}/kubernetesconfiguration-extensiontypes.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Kubernetesconfiguration-Extensiontypes
+        href: ~/docs-ref-services/{moniker}/arm-kubernetesconfiguration-extensiontypes-readme.md
+        children:
+        - '@azure/arm-kubernetesconfiguration-extensiontypes'
+  - name: Kubernetesconfiguration-Privatelinkscopes
+    href: ~/docs-ref-services/{moniker}/kubernetesconfiguration-privatelinkscopes.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Kubernetesconfiguration-Privatelinkscopes
+        href: ~/docs-ref-services/{moniker}/arm-kubernetesconfiguration-privatelinkscopes-readme.md
+        children:
+        - '@azure/arm-kubernetesconfiguration-privatelinkscopes'
   - name: Kusto
     href: ~/docs-ref-services/{moniker}/kusto.md
     landingPageType: Service
@@ -1608,6 +1656,16 @@
         href: ~/docs-ref-services/{moniker}/arm-labservices-readme.md
         children:
         - '@azure/arm-labservices'
+  - name: Lambdatesthyperexecute
+    href: ~/docs-ref-services/{moniker}/lambdatesthyperexecute.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Lambdatesthyperexecute
+        href: ~/docs-ref-services/{moniker}/arm-lambdatesthyperexecute-readme.md
+        children:
+        - '@azure/arm-lambdatesthyperexecute'
   - name: Large Instance
     href: ~/docs-ref-services/{moniker}/large-instance.md
     landingPageType: Service
@@ -1848,7 +1906,7 @@
     items:
     - name: Management
       items:
-      - name: Resource Management - Media Services
+      - name: Resource Management - Media Services (deprecated)
         href: ~/docs-ref-services/{moniker}/arm-mediaservices-readme.md
         children:
         - '@azure/arm-mediaservices'
@@ -1930,6 +1988,16 @@
         href: ~/docs-ref-services/{moniker}/arm-mongocluster-readme.md
         children:
         - '@azure/arm-mongocluster'
+  - name: Mongodbatlas
+    href: ~/docs-ref-services/{moniker}/mongodbatlas.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Mongodbatlas
+        href: ~/docs-ref-services/{moniker}/arm-mongodbatlas-readme.md
+        children:
+        - '@azure/arm-mongodbatlas'
   - name: Monitor
     href: ~/docs-ref-services/{moniker}/monitor.md
     landingPageType: Service
@@ -2090,6 +2158,16 @@
         href: ~/docs-ref-services/{moniker}/arm-oep-readme.md
         children:
         - '@azure/arm-oep'
+  - name: Onlineexperimentation
+    href: ~/docs-ref-services/{moniker}/onlineexperimentation.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Onlineexperimentation
+        href: ~/docs-ref-services/{moniker}/arm-onlineexperimentation-readme.md
+        children:
+        - '@azure/arm-onlineexperimentation'
   - name: Operations Management
     href: ~/docs-ref-services/{moniker}/operations-management.md
     landingPageType: Service
@@ -2160,6 +2238,16 @@
         href: ~/docs-ref-services/{moniker}/arm-pineconevectordb-readme.md
         children:
         - '@azure/arm-pineconevectordb'
+  - name: Planetarycomputer
+    href: ~/docs-ref-services/{moniker}/planetarycomputer.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Planetarycomputer
+        href: ~/docs-ref-services/{moniker}/arm-planetarycomputer-readme.md
+        children:
+        - '@azure/arm-planetarycomputer'
   - name: Playwright Testing
     href: ~/docs-ref-services/{moniker}/playwright-testing.md
     landingPageType: Service
@@ -2204,6 +2292,16 @@
         href: ~/docs-ref-services/{moniker}/arm-portal-readme.md
         children:
         - '@azure/arm-portal'
+  - name: Portalservicescopilot
+    href: ~/docs-ref-services/{moniker}/portalservicescopilot.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Portalservicescopilot
+        href: ~/docs-ref-services/{moniker}/arm-portalservicescopilot-readme.md
+        children:
+        - '@azure/arm-portalservicescopilot'
   - name: PostgreSQL
     href: ~/docs-ref-services/{moniker}/postgresql.md
     landingPageType: Service
@@ -2644,6 +2742,16 @@
         href: ~/docs-ref-services/{moniker}/arm-signalr-readme.md
         children:
         - '@azure/arm-signalr'
+  - name: Sitemanager
+    href: ~/docs-ref-services/{moniker}/sitemanager.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Sitemanager
+        href: ~/docs-ref-services/{moniker}/arm-sitemanager-readme.md
+        children:
+        - '@azure/arm-sitemanager'
   - name: Sphere
     href: ~/docs-ref-services/{moniker}/sphere.md
     landingPageType: Service
@@ -2906,6 +3014,18 @@
       href: ~/docs-ref-services/{moniker}/ts-http-runtime-readme.md
       children:
       - '@typespec/ts-http-runtime'
+  - name: unknown
+    href: ~/docs-ref-services/{moniker}/unknown.md
+    landingPageType: Service
+    items:
+    - name: unknown
+      href: ~/docs-ref-services/{moniker}/onlineexperimentation-rest-readme.md
+      children:
+      - '@azure-rest/onlineexperimentation'
+    - name: unknown
+      href: ~/docs-ref-services/{moniker}/storage-common-readme.md
+      children:
+      - '@azure/storage-common'
   - name: Video Analyzer
     href: ~/docs-ref-services/{moniker}/video-analyzer.md
     landingPageType: Service
