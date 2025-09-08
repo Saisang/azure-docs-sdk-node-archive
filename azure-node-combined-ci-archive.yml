@@ -19,7 +19,7 @@ resources:
     - repository: ReferenceAutomation
       type: git
       name: Content CI/ReferenceAutomation
-      ref: refs/heads/sai/testgitpipeline
+      ref: refs/heads/sa-testgitpipeline
       
 extends:
   template: nodejs/pipeline-yaml/azure-node-combined-ci-archive.yml@ReferenceAutomation
