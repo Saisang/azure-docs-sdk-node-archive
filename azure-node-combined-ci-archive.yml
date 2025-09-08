@@ -22,4 +22,4 @@ resources:
       ref: refs/heads/sai-testjumppipeline
 
 extends:
-  template: ReferencePipelineTrigger/azure-node-combined-ci-archive-jump-template.yml@ReferenceAutomation
+  template: nodejs/pipeline-yaml/azure-node-combined-ci-archive.yml@ReferenceAutomation
