@@ -1099,7 +1099,7 @@ inheritedMethods:
         type: >-
           IterableIterator&lt;<xref
           uid="azure-arm-keyvault.KeyVaultManagementModels.Resource" />&gt;
-    inheritanceDescription: <b>Inherited From</b> Array.__@iterator@218
+    inheritanceDescription: <b>Inherited From</b> Array.__@iterator@217
   - name: '[unscopables]()'
     uid: >-
       azure-arm-keyvault.KeyVaultManagementModels.ResourceListResult.[unscopables]
@@ -1119,7 +1119,7 @@ inheritedMethods:
         type: >-
           { copyWithin: boolean, entries: boolean, fill: boolean, find: boolean,
           findIndex: boolean, keys: boolean, values: boolean }
-    inheritanceDescription: <b>Inherited From</b> Array.__@unscopables@220
+    inheritanceDescription: <b>Inherited From</b> Array.__@unscopables@219
 extends: >-
   Array&lt;<xref uid="azure-arm-keyvault.KeyVaultManagementModels.Resource"
   />&gt;
