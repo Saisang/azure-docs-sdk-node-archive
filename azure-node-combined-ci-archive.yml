@@ -49,29 +49,29 @@ jobs:
   - task: npmAuthenticate@0
     displayName: npm Authenticate
     inputs:
-      workingFile: $(Build.Repository.LocalPath)/nodejs/JavaScriptTypeScript/.npmrc
+      workingFile: nodejs/JavaScriptTypeScript/.npmrc@ReferenceAutomation
   - task: CmdLine@2
     displayName: Build source code
     inputs:
       script: |
         npm install
         npm run build
-      workingDirectory: $(Build.Repository.LocalPath)/nodejs/JavaScriptTypeScript
+      workingDirectory: nodejs/JavaScriptTypeScript@ReferenceAutomation
   - task: PowerShell@2
     displayName: Install type2docfx
     inputs:
-      filePath: $(Build.Repository.LocalPath)/nodejs/Shared/InstallType2docfx.ps1
+      filePath: nodejs/Shared/InstallType2docfx.ps1@ReferenceAutomation
   - task: AzureCLI@2
     displayName: FederatedIdentity for ADO
     inputs:
       azureSubscription: 631c8994-cbef-48c4-b7f2-d97e8a790c29 # ReferenceAutomationPipeline
       scriptType: pscore
-      scriptPath: $(Build.Repository.LocalPath)/common/FederatedIdentity.ps1
+      scriptPath: common/FederatedIdentity.ps1@ReferenceAutomation
   - task: AzurePowerShell@5
     displayName: git pull
     inputs:
       azureSubscription: 631c8994-cbef-48c4-b7f2-d97e8a790c29 # ReferenceAutomationPipeline
-      ScriptPath: $(Build.Repository.LocalPath)/common/CI.pull.ps1
+      ScriptPath: common/CI.pull.ps1@ReferenceAutomation
       ScriptArguments: " -paramsJson '$(params)' -vstsTokenBase64 '$(vstsTokenBase64)'"
       FailOnStandardError: true
       azurePowerShellVersion: LatestVersion
