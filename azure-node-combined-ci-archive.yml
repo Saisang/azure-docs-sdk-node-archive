@@ -12,7 +12,7 @@ trigger:
   paths:
     include:
     - metadata/legacy
-    - ci-configs/packages-legacy.json
+    - ci-configs
     
 resources:
   repositories:
@@ -23,3 +23,4 @@ resources:
       
 extends:
   template: nodejs/pipeline-yaml/azure-node-combined-ci-archive.yml@ReferenceAutomation
+
