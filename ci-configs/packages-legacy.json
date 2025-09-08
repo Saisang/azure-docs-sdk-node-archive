@@ -114,8 +114,8 @@
     }
   ],
   "target_repo": {
-    "url": "https://github.com/MicrosoftDocs/azure-docs-sdk-node-archive",
+    "url": "https://github.com/Saisanng/azure-docs-sdk-node-archive",
     "folder": "previous-packages",
-    "branch": "smoke-test"
+    "branch": "main"
   }
 }
