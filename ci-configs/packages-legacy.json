@@ -25,6 +25,9 @@
       "name": "@azure/arm-networkanalytics@1.0.0"
     },
     {
+      "name": "@azure/arm-playwrighttesting@1.0.1"
+    },
+    {
       "name": "@azure/arm-storageimportexport@2.1.0"
     },
     {
@@ -117,8 +120,9 @@
     }
   ],
   "target_repo": {
-    "url": "https://github.com/saisang/azure-docs-sdk-node",
+    "url": "https://github.com/MicrosoftDocs/azure-docs-sdk-node-archive",
     "folder": "previous-packages",
-    "branch": "test"
+    "branch": "smoke-test"
   }
 }
+

@@ -280,6 +280,16 @@
         href: ~/docs-ref-services/{moniker}/arm-avs-readme.md
         children:
         - '@azure/arm-avs'
+  - name: Azurestackhcivm
+    href: ~/docs-ref-services/{moniker}/azurestackhcivm.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Azurestackhcivm
+        href: ~/docs-ref-services/{moniker}/arm-azurestackhcivm-readme.md
+        children:
+        - '@azure/arm-azurestackhcivm'
   - name: BareMetal Infrastructure
     href: ~/docs-ref-services/{moniker}/baremetal-infrastructure.md
     landingPageType: Service
@@ -484,10 +494,6 @@
       href: ~/docs-ref-services/{moniker}/cognitiveservices-qnamaker-runtime-readme.md
       children:
       - '@azure/cognitiveservices-qnamaker-runtime'
-    - name: Speech
-      href: ~/docs-ref-services/{moniker}/microsoft-cognitiveservices-speech-sdk-readme.md
-      children:
-      - microsoft-cognitiveservices-speech-sdk
     - name: Spell Check
       href: ~/docs-ref-services/{moniker}/cognitiveservices-spellcheck-readme.md
       children:
@@ -768,6 +774,16 @@
         href: ~/docs-ref-services/{moniker}/arm-containerservicefleet-readme.md
         children:
         - '@azure/arm-containerservicefleet'
+  - name: Containerservicesafeguards
+    href: ~/docs-ref-services/{moniker}/containerservicesafeguards.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Containerservicesafeguards
+        href: ~/docs-ref-services/{moniker}/arm-containerservicesafeguards-readme.md
+        children:
+        - '@azure/arm-containerservicesafeguards'
   - name: Content Delivery Network
     href: ~/docs-ref-services/{moniker}/content-delivery-network.md
     landingPageType: Service
@@ -1030,7 +1046,7 @@
         href: ~/docs-ref-services/{moniker}/arm-devtestlabs-readme.md
         children:
         - '@azure/arm-devtestlabs'
-  - name: DNS
+  - name: Dns
     href: ~/docs-ref-services/{moniker}/dns.md
     landingPageType: Service
     items:
@@ -1353,7 +1369,7 @@
     landingPageType: Service
     items:
     - name: Health Deidentification
-      href: ~/docs-ref-services/{moniker}/azure-health-deidentification-readme.md
+      href: ~/docs-ref-services/{moniker}/health-deidentification-rest-readme.md
       children:
       - '@azure-rest/health-deidentification'
   - name: Healthcare APIs
@@ -1694,6 +1710,10 @@
       href: ~/docs-ref-services/{moniker}/load-testing-rest-readme.md
       children:
       - '@azure-rest/load-testing'
+    - name: Playwright
+      href: ~/docs-ref-services/{moniker}/playwright-readme.md
+      children:
+      - '@azure/playwright'
     - name: Management
       items:
       - name: Resource Management - Load Testing
@@ -1922,7 +1942,7 @@
     href: ~/docs-ref-services/{moniker}/microsoft-playwright-testing.md
     landingPageType: Service
     items:
-    - name: Microsoft Playwright Testing
+    - name: Microsoft Playwright Testing (deprecated)
       href: ~/docs-ref-services/{moniker}/microsoft-playwright-testing-readme.md
       children:
       - '@azure/microsoft-playwright-testing'
@@ -2014,10 +2034,18 @@
       href: ~/docs-ref-services/{moniker}/monitor-opentelemetry-exporter-readme.md
       children:
       - '@azure/monitor-opentelemetry-exporter'
-    - name: Monitor Query
+    - name: Monitor Query (deprecated)
       href: ~/docs-ref-services/{moniker}/monitor-query-readme.md
       children:
       - '@azure/monitor-query'
+    - name: Monitor Query Logs
+      href: ~/docs-ref-services/{moniker}/monitor-query-logs-readme.md
+      children:
+      - '@azure/monitor-query-logs'
+    - name: Monitor Query Metrics
+      href: ~/docs-ref-services/{moniker}/monitor-query-metrics-readme.md
+      children:
+      - '@azure/monitor-query-metrics'
     - name: Management
       items:
       - name: Resource Management - Monitor
@@ -2248,13 +2276,23 @@
         href: ~/docs-ref-services/{moniker}/arm-planetarycomputer-readme.md
         children:
         - '@azure/arm-planetarycomputer'
+  - name: Playwright
+    href: ~/docs-ref-services/{moniker}/playwright.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Playwright
+        href: ~/docs-ref-services/{moniker}/arm-playwright-readme.md
+        children:
+        - '@azure/arm-playwright'
   - name: Playwright Testing
     href: ~/docs-ref-services/{moniker}/playwright-testing.md
     landingPageType: Service
     items:
     - name: Management
       items:
-      - name: Resource Management - Playwright Testing
+      - name: Resource Management - Playwright Testing (deprecated)
         href: ~/docs-ref-services/{moniker}/arm-playwrighttesting-readme.md
         children:
         - '@azure/arm-playwrighttesting'
@@ -2302,7 +2340,7 @@
         href: ~/docs-ref-services/{moniker}/arm-portalservicescopilot-readme.md
         children:
         - '@azure/arm-portalservicescopilot'
-  - name: PostgreSQL
+  - name: Postgresql
     href: ~/docs-ref-services/{moniker}/postgresql.md
     landingPageType: Service
     items:
@@ -2346,6 +2384,16 @@
         href: ~/docs-ref-services/{moniker}/arm-privatedns-readme.md
         children:
         - '@azure/arm-privatedns'
+  - name: Purestorageblock
+    href: ~/docs-ref-services/{moniker}/purestorageblock.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Purestorageblock
+        href: ~/docs-ref-services/{moniker}/arm-purestorageblock-readme.md
+        children:
+        - '@azure/arm-purestorageblock'
   - name: Purview
     href: ~/docs-ref-services/{moniker}/purview.md
     landingPageType: Service
@@ -3026,6 +3074,12 @@
       href: ~/docs-ref-services/{moniker}/storage-common-readme.md
       children:
       - '@azure/storage-common'
+    - name: Management
+      items:
+      - name: unknown
+        href: ~/docs-ref-services/{moniker}/arm-resourcesdeployments-readme.md
+        children:
+        - '@azure/arm-resourcesdeployments'
   - name: Video Analyzer
     href: ~/docs-ref-services/{moniker}/video-analyzer.md
     landingPageType: Service
@@ -3116,6 +3170,16 @@
       href: ~/docs-ref-services/{moniker}/cognitiveservices-websearch-readme.md
       children:
       - '@azure/cognitiveservices-websearch'
+  - name: Workloadorchestration
+    href: ~/docs-ref-services/{moniker}/workloadorchestration.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Workloadorchestration
+        href: ~/docs-ref-services/{moniker}/arm-workloadorchestration-readme.md
+        children:
+        - '@azure/arm-workloadorchestration'
   - name: Workloads
     href: ~/docs-ref-services/{moniker}/workloads.md
     landingPageType: Service
