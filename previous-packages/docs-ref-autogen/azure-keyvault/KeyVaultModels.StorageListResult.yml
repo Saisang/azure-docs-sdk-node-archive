@@ -1133,7 +1133,7 @@ inheritedMethods:
         type: >-
           IterableIterator&lt;<xref
           uid="azure-keyvault.KeyVaultModels.StorageAccountItem" />&gt;
-    inheritanceDescription: <b>Inherited From</b> Array.__@iterator@3020
+    inheritanceDescription: <b>Inherited From</b> Array.__@iterator@3019
   - name: '[unscopables]()'
     uid: azure-keyvault.KeyVaultModels.StorageListResult.[unscopables]
     package: azure-keyvault
@@ -1152,5 +1152,5 @@ inheritedMethods:
         type: >-
           { copyWithin: boolean, entries: boolean, fill: boolean, find: boolean,
           findIndex: boolean, keys: boolean, values: boolean }
-    inheritanceDescription: <b>Inherited From</b> Array.__@unscopables@3022
+    inheritanceDescription: <b>Inherited From</b> Array.__@unscopables@3021
 extends: Array&lt;<xref uid="azure-keyvault.KeyVaultModels.StorageAccountItem" />&gt;

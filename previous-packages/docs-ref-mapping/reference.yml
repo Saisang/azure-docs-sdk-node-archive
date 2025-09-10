@@ -128,6 +128,14 @@
         children:
         - '@azure/arm-mediaservices'
         landingPageType: Service
+  - name: Monitor
+    href: ~/docs-ref-services/legacy/monitor.md
+    landingPageType: Service
+    items:
+    - name: Monitor Query (deprecated)
+      href: ~/docs-ref-services/legacy/monitor-query-readme.md
+      children:
+      - '@azure/monitor-query'
   - name: Network Analytics
     href: ~/docs-ref-services/legacy/network-analytics.md
     landingPageType: Service
@@ -138,6 +146,16 @@
         href: ~/docs-ref-services/legacy/arm-networkanalytics-readme.md
         children:
         - '@azure/arm-networkanalytics'
+  - name: Playwright Testing
+    href: ~/docs-ref-services/legacy/playwright-testing.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Playwright Testing (deprecated)
+        href: ~/docs-ref-services/legacy/arm-playwrighttesting-readme.md
+        children:
+        - '@azure/arm-playwrighttesting'
   - name: Purview
     href: ~/docs-ref-services/legacy/purview.md
     landingPageType: Service

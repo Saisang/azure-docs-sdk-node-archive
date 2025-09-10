@@ -1151,7 +1151,7 @@ inheritedMethods:
         type: >-
           IterableIterator&lt;<xref
           uid="azure-arm-operations.OperationsManagementModels.Operation" />&gt;
-    inheritanceDescription: <b>Inherited From</b> Array.__@iterator@181
+    inheritanceDescription: <b>Inherited From</b> Array.__@iterator@180
   - name: '[unscopables]()'
     uid: >-
       azure-arm-operations.OperationsManagementModels.OperationListResult.[unscopables]
@@ -1171,7 +1171,7 @@ inheritedMethods:
         type: >-
           { copyWithin: boolean, entries: boolean, fill: boolean, find: boolean,
           findIndex: boolean, keys: boolean, values: boolean }
-    inheritanceDescription: <b>Inherited From</b> Array.__@unscopables@183
+    inheritanceDescription: <b>Inherited From</b> Array.__@unscopables@182
 extends: >-
   Array&lt;<xref uid="azure-arm-operations.OperationsManagementModels.Operation"
   />&gt;
