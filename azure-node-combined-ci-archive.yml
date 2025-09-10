@@ -1,9 +1,3 @@
-# Variable 'doc_repo_location' was defined in the Variables tab
-# Variable 'params' was defined in the Variables tab
-# Variable 'SkipUpdateTocs' was defined in the Variables tab
-# Variable 'tools_repo_location' was defined in the Variables tab
-# Variable 'tools_repo_SHA' was defined in the Variables tab
-# Variable 'ReferenceLanguage' was defined in the Variables tab
 trigger:
   batch: true
   branches:
@@ -22,4 +16,5 @@ resources:
       ref: refs/heads/sai-testjumppipeline
 
 extends:
+
   template: nodejs/pipeline-yaml/azure-node-combined-ci-archive.yml@ReferenceAutomation
