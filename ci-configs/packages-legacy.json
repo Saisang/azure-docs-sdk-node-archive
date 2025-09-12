@@ -114,15 +114,12 @@
     {
       "name": "azure-storage@2.10.3",
       "folder": "./typings/azure-storage"
-    },
-    {
-      "name": "durable-functions@2.1.3"
     }
   ],
   "target_repo": {
     "url": "https://github.com/MicrosoftDocs/azure-docs-sdk-node-archive",
     "folder": "previous-packages",
-    "branch": "smoke-test"
+    "branch": "smoke"
   }
 }
 
