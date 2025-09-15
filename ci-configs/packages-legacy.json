@@ -13,9 +13,6 @@
       "name": "@azure/applicationinsights-query@1.1.0"
     },
     {
-      "name": "@azure/arm-appplatform@3.0.0"
-    },
-    {
       "name": "@azure/arm-iotspaces@1.2.1"
     },
     {
