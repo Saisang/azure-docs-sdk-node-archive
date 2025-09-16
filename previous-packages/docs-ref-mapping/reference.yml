@@ -114,16 +114,6 @@
         children:
         - azure-arm-operations
         landingPageType: Service
-  - name: Media Services
-    href: ~/docs-ref-services/legacy/media-services.md
-    landingPageType: Service
-    items:
-    - name: Management
-      items:
-      - name: Resource Management - Media Services (deprecated)
-        children:
-        - '@azure/arm-mediaservices'
-        landingPageType: Service
   - name: Monitor
     href: ~/docs-ref-services/legacy/monitor.md
     landingPageType: Service
